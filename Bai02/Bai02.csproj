@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{61DFF612-C1AC-4774-ACF5-3EE04F735845}</ProjectGuid>
+    <ProjectGuid>{9F5337EA-B17B-460E-B4B1-D738B2890ADC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bai01</RootNamespace>
-    <AssemblyName>Bai01</AssemblyName>
+    <RootNamespace>Bai02</RootNamespace>
+    <AssemblyName>Bai02</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -75,22 +75,38 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GioiThieuMonHoc.aspx" />
+    <Content Include="Chao.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="KhachHang.aspx" />
+    <Content Include="TongHaiSo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GioiThieuMonHoc.aspx.cs">
-      <DependentUpon>GioiThieuMonHoc.aspx</DependentUpon>
+    <Compile Include="Chao.aspx.cs">
+      <DependentUpon>Chao.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GioiThieuMonHoc.aspx.designer.cs">
-      <DependentUpon>GioiThieuMonHoc.aspx</DependentUpon>
+    <Compile Include="Chao.aspx.designer.cs">
+      <DependentUpon>Chao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="KhachHang.aspx.cs">
+      <DependentUpon>KhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KhachHang.aspx.designer.cs">
+      <DependentUpon>KhachHang.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TongHaiSo.aspx.cs">
+      <DependentUpon>TongHaiSo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TongHaiSo.aspx.designer.cs">
+      <DependentUpon>TongHaiSo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -109,9 +125,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61307</DevelopmentServerPort>
+          <DevelopmentServerPort>61470</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61307/</IISUrl>
+          <IISUrl>http://localhost:61470/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
