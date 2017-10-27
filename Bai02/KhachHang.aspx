@@ -31,13 +31,13 @@
                  <tr>
                     <td style="font-weight:bold;">Họ và tên:</td>
                     <td>
-                        <asp:TextBox ID="txtHoVaTen" runat="server" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="txtHoVaTen" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                  <tr>
                     <td style="font-weight:bold;">Giới tính:</td>
                     <td>
-                        <asp:RadioButton ID="rdNam" runat="server" GroupName="gioiTinh" Text="Nam" />
+                        <asp:RadioButton ID="rdNam" runat="server" GroupName="gioiTinh" Text="Nam" Checked="true" />
                         <asp:RadioButton ID="rdNu" runat="server" GroupName="gioiTinh" Text="Nữ"/>
                     </td>
                 </tr>
@@ -101,7 +101,7 @@
                  <tr>
                     <td style="font-weight:bold;">Họ và tên:</td>
                     <td>
-                        <asp:Label ID="lnlHoVaTen" runat="server"></asp:Label>
+                        <asp:Label ID="lblHoVaTen" runat="server"></asp:Label>
                     </td>
                 </tr>
                  <tr>

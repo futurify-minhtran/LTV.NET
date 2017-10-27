@@ -27,7 +27,29 @@ namespace Bai02
 
         protected void btnDangNhap_Click(object sender, EventArgs e)
         {
+            lblTenDangNhap.Text = txtTenDangNhap.Text;
+            lblMatKhau.Text = txtMatKhau.Text;
 
+            lblHoVaTen.Text = txtHoVaTen.Text;
+            lblGioiTinh.Text = rdNam.Checked ? "Nam" : "Nữ";
+            lblNgaySinh.Text = lstNgay.SelectedItem.Value + " / " + lstThang.SelectedItem.Value + " / " + lstNam.SelectedItem.Value;
+            lblEmail.Text = txtEmail.Text;
+
+            string soThich = "";
+            if (chkAmNhac.Checked)
+                soThich += chkAmNhac.Text + ", ";
+            if (chkPhimAnh.Checked)
+                soThich += chkPhimAnh.Text + ", ";
+            if (chkGame.Checked)
+                soThich += chkGame.Text + ", ";
+            if (chkDocBao.Checked)
+                soThich += chkDocBao.Text + ", ";
+            if (chkRadio.Checked)
+                soThich += chkRadio.Text + ", ";
+            if (chkTivi.Checked)
+                soThich += chkTivi.Text + ", ";
+
+            lblSoThich.Text = soThich.Trim(' ', ',');
         }
     }
 }
